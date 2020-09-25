@@ -8,6 +8,8 @@ repositories {
 configurations {
   helloImplementation
   helloAnnotationProcessor
+  springBootImplementation
+  springBootAnnotationProcessor
 }
 
 dependencies {
@@ -19,6 +21,10 @@ dependencies {
   helloImplementation "org.slf4j:slf4j-simple:1.7.30"
   helloImplementation "org.projectlombok:lombok:1.18.12"
   helloAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+  // springBoot implementations
+  springBootImplementation "org.springframework.boot:spring-boot-starter:2.3.4.RELEASE"
+  springBootImplementation "org.projectlombok:lombok:1.18.12"
+  springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
 }
 
 sourceSets {
@@ -30,6 +36,11 @@ sourceSets {
   hello {
     java {
       srcDir("src/jbang/hello")
+    }
+  }
+  springBoot {
+    java {
+      srcDir("src/jbang/springBoot")
     }
   }
 }
