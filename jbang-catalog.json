@@ -1,0 +1,7 @@
+{
+  "aliases": {
+    "HelloWorld": {
+      "script-ref": "src/script/jbang/HelloWorld.java"
+    }
+  }
+}
