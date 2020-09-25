@@ -2,6 +2,9 @@
   "aliases": {
     "HelloWorld": {
       "script-ref": "src/script/jbang/HelloWorld.java"
+    },
+    "SpringBootApp": {
+      "script-ref": "src/script/jbang/demo1/SpringBootApp.java"
     }
   }
 }
