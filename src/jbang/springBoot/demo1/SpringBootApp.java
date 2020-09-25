@@ -15,6 +15,6 @@ public class SpringBootApp implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("started");
+        System.out.println("App started");
     }
 }
