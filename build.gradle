@@ -15,18 +15,18 @@ configurations {
 dependencies {
   //implementations for main source set
   implementation "org.slf4j:slf4j-simple:1.7.30"
-  implementation "org.projectlombok:lombok:1.18.12"
+  implementation "org.projectlombok:lombok:1.18.16"
   implementation "io.github.cdimascio:dotenv-java:2.2.0"
-  annotationProcessor "org.projectlombok:lombok:1.18.12"
+  annotationProcessor "org.projectlombok:lombok:1.18.16"
   // implementations for hello source set
   helloImplementation "org.slf4j:slf4j-simple:1.7.30"
-  helloImplementation "org.projectlombok:lombok:1.18.12"
+  helloImplementation "org.projectlombok:lombok:1.18.16"
   helloImplementation "io.github.cdimascio:dotenv-java:2.2.0"
-  helloAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+  helloAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
   // springBoot implementations
   springBootImplementation "org.springframework.boot:spring-boot-starter:2.4.0"
-  springBootImplementation "org.projectlombok:lombok:1.18.12"
-  springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+  springBootImplementation "org.projectlombok:lombok:1.18.16"
+  springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 }
 
 sourceSets {
