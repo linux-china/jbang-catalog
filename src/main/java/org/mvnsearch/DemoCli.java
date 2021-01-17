@@ -11,13 +11,13 @@ import java.util.concurrent.Callable;
 
 @Command(name = "Hello", mixinStandardHelpOptions = true, version = "Hello 0.1",
         description = "Hello made with jbang")
-public class App implements Callable<Integer> {
+public class DemoCli implements Callable<Integer> {
 
     @Parameters(index = "0", description = "The greeting to print", defaultValue = "World!")
     private String greeting;
 
     public static void main(String... args) {
-        int exitCode = new CommandLine(new App()).execute(args);
+        int exitCode = new CommandLine(new DemoCli()).execute(args);
         System.exit(exitCode);
     }
 
