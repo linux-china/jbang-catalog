@@ -1,5 +1,8 @@
 {
   "aliases": {
+    "DemoCli": {
+      "script-ref": "src/main/java/org/mvnsearch/DemoCli.java"
+    },
     "HelloWorld": {
       "script-ref": "src/jbang/hello/HelloWorld.java"
     },
