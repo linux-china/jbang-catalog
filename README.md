@@ -3,7 +3,13 @@ jbang-catalog
 
 # Tips
 
-* generate picocli command: `jbang init --template=cli Hello.java`
+* Generate picocli command: `jbang init --template=cli Hello.java`
+* Maven dependencyManagement or BOM POM's
+
+```
+//DEPS org.springframework.boot:spring-boot-dependencies:2.4.2@pom
+//DEPS org.projectlombok:lombok
+```
 
 # References
 
