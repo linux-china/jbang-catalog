@@ -4,6 +4,12 @@ jbang-catalog
 # Tips
 
 * Generate picocli command: `jbang init --template=cli Hello.java`
+* Install with native mode, please set GRAALVM_HOME first.
+
+```
+jbang app install --native properties@jbangdev
+```
+
 * Maven dependencyManagement or BOM POM's
 
 ```
