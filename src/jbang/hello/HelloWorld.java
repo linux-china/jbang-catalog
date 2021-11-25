@@ -1,6 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS org.slf4j:slf4j-simple:1.7.30
-//DEPS org.projectlombok:lombok:1.18.16
+//JAVA 17
+//DEPS org.slf4j:slf4j-simple:1.7.32
+//DEPS org.projectlombok:lombok:1.18.22
 //DEPS io.github.cdimascio:dotenv-java:2.2.0
 //SOURCES UserManager.java
 
