@@ -25,13 +25,13 @@ Example as following:
 ```json
 {
   "aliases": {
-    "demo": {
-      "script-ref": "src/jbang/demo/Demo.java",
-      "description": "Demo",
+    "hello": {
+      "script-ref": "src/jbang/hello/HelloWorld.java",
+      "description": "Hello World",
       "java": "8",
       "main": "",
       "arguments": [],
-      "javaOptions": [],
+      "java-options": [],
       "dependencies": [],
       "properties": {}
     }
