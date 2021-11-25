@@ -1,13 +1,16 @@
 {
   "aliases": {
     "DemoCli": {
-      "script-ref": "src/main/java/org/mvnsearch/DemoCli.java"
+      "script-ref": "src/main/java/org/mvnsearch/DemoCli.java",
+      "description": "Demo CLI"
     },
     "HelloWorld": {
-      "script-ref": "src/jbang/hello/HelloWorld.java"
+      "script-ref": "src/jbang/hello/HelloWorld.java",
+      "description": "Hello World"
     },
     "SpringBootApp": {
-      "script-ref": "src/jbang/springBoot/demo1/SpringBootApp.java"
+      "script-ref": "src/jbang/springBoot/demo1/SpringBootApp.java",
+      "description": "Spring Boot App"
     }
   }
 }
