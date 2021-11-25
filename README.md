@@ -19,6 +19,26 @@ $ jbang app install --native properties@jbangdev
 //DEPS org.projectlombok:lombok
 ```
 
+# jbang-catalog.json data format
+   
+Example as following: 
+```json
+{
+  "aliases": {
+    "demo": {
+      "script-ref": "src/jbang/demo/Demo.java",
+      "description": "Demo",
+      "java": "8",
+      "main": "",
+      "arguments": [],
+      "javaOptions": [],
+      "dependencies": [],
+      "properties": {}
+    }
+  }
+}
+```
+
 # References
 
 * jbang: https://github.com/jbangdev/jbang
