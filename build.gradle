@@ -1,9 +1,11 @@
 apply plugin: 'java'
 
 repositories {
-  mavenLocal()
-  jcenter()
+  mavenCentral()
 }
+
+sourceCompatibility = 17
+targetCompatibility = 17
 
 configurations {
   helloImplementation
@@ -14,21 +16,21 @@ configurations {
 
 dependencies {
   //implementations for main source set
-  implementation "org.slf4j:slf4j-simple:1.7.30"
-  implementation "org.projectlombok:lombok:1.18.16"
+  implementation 'org.slf4j:slf4j-simple:1.7.32'
+  implementation "org.projectlombok:lombok:1.18.22"
   implementation "io.github.cdimascio:dotenv-java:2.2.0"
-  implementation "info.picocli:picocli:4.5.2"
-  implementation "info.picocli:picocli-codegen:4.5.2"
-  annotationProcessor "org.projectlombok:lombok:1.18.16"
+  implementation "info.picocli:picocli:4.6.2"
+  implementation "info.picocli:picocli-codegen:4.6.2"
+  annotationProcessor 'org.projectlombok:lombok:1.18.22'
   // implementations for hello source set
-  helloImplementation "org.slf4j:slf4j-simple:1.7.30"
-  helloImplementation "org.projectlombok:lombok:1.18.16"
+  helloImplementation 'org.slf4j:slf4j-simple:1.7.32'
+  helloImplementation 'org.projectlombok:lombok:1.18.22'
   helloImplementation "io.github.cdimascio:dotenv-java:2.2.0"
-  helloAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+  helloAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
   // springBoot implementations
-  springBootImplementation "org.springframework.boot:spring-boot-starter:2.4.0"
-  springBootImplementation "org.projectlombok:lombok:1.18.16"
-  springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+  springBootImplementation "org.springframework.boot:spring-boot-starter:2.6.0"
+  springBootImplementation "org.projectlombok:lombok:1.18.22"
+  springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
 }
 
 sourceSets {
