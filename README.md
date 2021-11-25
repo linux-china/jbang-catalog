@@ -16,7 +16,7 @@ $ jbang app install --native properties@jbangdev
 
 ```
 //DEPS org.springframework.boot:spring-boot-dependencies:2.4.2@pom
-//DEPS org.projectlombok:lombok
+//DEPS org.projectlombok:lombok:1.18.22
 ```
 
 # jbang-catalog.json data format
