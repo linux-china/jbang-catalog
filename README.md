@@ -43,3 +43,4 @@ Example as following:
 
 * jbang: https://github.com/jbangdev/jbang
 * picocli: a mighty tiny command line interface: https://picocli.info/
+* Scripting with Quarkus: https://quarkus.io/guides/scripting
