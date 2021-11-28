@@ -36,11 +36,6 @@ dependencies {
 }
 
 sourceSets {
-  main {
-    java {
-      srcDirs = ['src/main/java']
-    }
-  }
   hello {
     java {
       srcDirs = ["src/jbang/hello"]
