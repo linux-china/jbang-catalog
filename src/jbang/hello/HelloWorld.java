@@ -17,6 +17,12 @@ public class HelloWorld {
         System.out.println(new UserManager().findNickById(1));
         String nick = Dotenv.load().get("nick");
         System.out.println(nick);
+        if (args != null && args.length > 0) {
+            System.out.println("=====args====");
+            for (String arg : args) {
+                System.out.println(arg);
+            }
+        }
     }
 
     public static class UserManager {
