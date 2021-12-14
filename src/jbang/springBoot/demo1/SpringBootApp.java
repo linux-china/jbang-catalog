@@ -1,6 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //DEPS org.springframework.boot:spring-boot-starter:2.6.0
 //FILES application.properties
+//JAVA_OPTIONS -Dnick=linux_china2 -Dserver.port=9000
 package demo1;
 
 import org.springframework.beans.factory.annotation.Value;
