@@ -30,7 +30,7 @@
             "items": {
               "type": "string"
             },
-            "description": "//JAVA_OPTIONS, such as '-Xms256m -Xmx2048m' https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html#using-the-jdk_java_options-launcher-environment-variable"
+            "description": "//JAVA_OPTIONS, such as '-Xms256m -Xmx2048m'. Use `java -X` to list options"
           },
           "dependencies": {
             "type": "array",
