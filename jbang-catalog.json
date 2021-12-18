@@ -2,14 +2,15 @@
   "aliases": {
     "DemoCli": {
       "script-ref": "src/main/java/org/mvnsearch/DemoCli.java",
-      "description": "Demo CLI"
+      "description": "Demo CLI" ,
+      "dependencies": ["org.rocksdb:rocksdbjni:6.26.1"]
     },
     "HelloWorld": {
-      "script-ref": "src/jbang/hello/HelloWorld.java",
+      "script-ref": "src/hello/HelloWorld.java",
       "description": "Hello World"
     },
     "SpringBootApp": {
-      "script-ref": "src/jbang/springBoot/demo1/SpringBootApp.java",
+      "script-ref": "src/springBoot/demo1/SpringBootApp.java",
       "description": "Spring Boot App"
     }
   }
