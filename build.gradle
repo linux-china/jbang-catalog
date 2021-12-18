@@ -38,12 +38,12 @@ dependencies {
 sourceSets {
   hello {
     java {
-      srcDirs = ["src/jbang/hello"]
+      srcDirs = ["src/hello/java"]
     }
   }
   springBoot {
     java {
-      srcDirs = ["src/jbang/springBoot"]
+      srcDirs = ["src/springBoot/java"]
     }
   }
 }
