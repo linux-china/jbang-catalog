@@ -1,4 +1,5 @@
 jbang-catalog
+
 =============
 
 # Tips
@@ -44,3 +45,5 @@ Example as following:
 * jbang: https://github.com/jbangdev/jbang
 * picocli: a mighty tiny command line interface: https://picocli.info/
 * Scripting with Quarkus: https://quarkus.io/guides/scripting
+* Gradle Source Sets: https://www.baeldung.com/gradle-source-sets
+* Gradle Goodness: Add Support For "Scratch" Files To Java Project https://blog.jdriven.com/2021/03/gradle-goodness-add-support-for-scratch-files-to-java-project/
