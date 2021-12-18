@@ -23,7 +23,7 @@ public class DemoCli implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception { // your business logic goes here...
-        System.out.println("Hello " + greeting);
+        System.out.println("Hello22 " + greeting);
         return 0;
     }
 }
