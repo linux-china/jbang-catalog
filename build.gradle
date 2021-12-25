@@ -1,5 +1,7 @@
 plugins {
   id 'java'
+  id 'groovy'
+  id "org.jetbrains.kotlin.jvm" version "1.6.10"
 }
 
 repositories {
@@ -9,11 +11,27 @@ repositories {
 sourceCompatibility = 17
 targetCompatibility = 17
 
-configurations {
-  helloImplementation
-  helloAnnotationProcessor
-  springBootImplementation
-  springBootAnnotationProcessor
+sourceSets {
+  hello {
+    java {
+      srcDirs = ["src/hello/java"]
+    }
+  }
+  demo {
+    groovy {
+      srcDirs = ['src/demo']
+    }
+  }
+  kdemo {
+    kotlin {
+      srcDirs = ['src/kdemo']
+    }
+  }
+  springBoot {
+    java {
+      srcDirs = ["src/springBoot/java"]
+    }
+  }
 }
 
 dependencies {
@@ -33,17 +51,8 @@ dependencies {
   springBootImplementation "org.springframework.boot:spring-boot-starter:2.6.1"
   springBootImplementation "org.projectlombok:lombok:1.18.22"
   springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
+  // demo implementations
+  demoImplementation 'org.codehaus.groovy:groovy-all:3.0.9'
+
 }
 
-sourceSets {
-  hello {
-    java {
-      srcDirs = ["src/hello/java"]
-    }
-  }
-  springBoot {
-    java {
-      srcDirs = ["src/springBoot/java"]
-    }
-  }
-}
