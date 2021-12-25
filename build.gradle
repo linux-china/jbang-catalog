@@ -34,6 +34,13 @@ sourceSets {
       srcDirs = ["src/springBoot/java"]
     }
   }
+
+  root {
+    java {
+      srcDirs = ["$projectDir"]
+      include 'Hello.java'
+    }
+  }
 }
 
 dependencies {
@@ -49,6 +56,7 @@ dependencies {
   helloImplementation 'org.projectlombok:lombok:1.18.22'
   helloImplementation 'io.github.cdimascio:dotenv-java:2.2.3'
   helloAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
+  helloImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
   // springBoot implementations
   springBootImplementation "org.springframework.boot:spring-boot-starter:2.6.1"
   springBootImplementation "org.projectlombok:lombok:1.18.22"
