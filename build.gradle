@@ -1,7 +1,9 @@
+//file:noinspection GroovyAssignabilityCheck
+//file:noinspection GrUnresolvedAccess
 plugins {
   id 'java'
   id 'groovy'
-  id "org.jetbrains.kotlin.jvm" version "1.6.10"
+  id 'org.jetbrains.kotlin.jvm' version '1.6.10'
 }
 
 repositories {
@@ -53,6 +55,8 @@ dependencies {
   springBootAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
   // demo implementations
   demoImplementation 'org.codehaus.groovy:groovy-all:3.0.9'
-
+  // gdemo implementations
+  kdemoImplementation platform('org.jetbrains.kotlin:kotlin-bom')
+  kdemoImplementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
 }
 
