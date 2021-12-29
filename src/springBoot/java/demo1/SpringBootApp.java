@@ -1,5 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS org.springframework.boot:spring-boot-starter:2.6.1
+//DEPS org.springframework.boot:spring-boot-dependencies:2.6.2@pom
+//DEPS org.springframework.boot:spring-boot-starter
 //FILES application.properties
 //JAVA_OPTIONS -Dnick=linux_china2 -Dserver.port=9000
 package demo1;
@@ -7,11 +8,13 @@ package demo1;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
-@SpringBootApplication
+@SpringBootConfiguration
+@EnableAutoConfiguration
 public class SpringBootApp implements CommandLineRunner {
-    @Value("${nick}")
+    @Value("${nick:Guest}")
     private String nick;
 
     public static void main(String[] args) {
