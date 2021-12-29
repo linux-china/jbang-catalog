@@ -48,8 +48,8 @@ dependencies {
   function1Implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10'
   function1Implementation 'org.jetbrains.kotlin:kotlin-reflect:1.6.10'
   demoImplementation 'org.codehaus.groovy:groovy:3.0.9'
-  springBootImplementation 'org.springframework.boot:spring-boot-starter:2.6.2'
-  springBootImplementation 'org.springframework.boot:spring-boot-webflux:2.6.2'
+  springBootImplementation platform('org.springframework.boot:spring-boot-dependencies:2.6.2')
+  springBootImplementation 'org.springframework.boot:spring-boot-starter'
   helloImplementation 'org.slf4j:slf4j-simple:1.7.32'
   helloImplementation 'org.projectlombok:lombok:1.18.22'
   helloImplementation 'io.github.cdimascio:dotenv-java:2.2.0'
