@@ -2,8 +2,7 @@
   "aliases": {
     "DemoCli": {
       "script-ref": "src/main/java/org/mvnsearch/DemoCli.java",
-      "description": "Demo CLI" ,
-      "dependencies": ["org.rocksdb:rocksdbjni:6.26.1"]
+      "description": "Demo CLI"
     },
     "HelloWorld": {
       "script-ref": "src/hello/HelloWorld.java",
@@ -12,6 +11,10 @@
     "SpringBootApp": {
       "script-ref": "src/springBoot/demo1/SpringBootApp.java",
       "description": "Spring Boot App"
+    },
+    "google-java-format": {
+      "script-ref": "https://github.com/google/google-java-format/releases/download/v1.13.0/google-java-format-1.13.0-all-deps.jar",
+      "java": "8"
     }
   }
 }
