@@ -5,11 +5,11 @@
       "description": "Demo CLI"
     },
     "HelloWorld": {
-      "script-ref": "src/hello/HelloWorld.java",
+      "script-ref": "src/hello/java/HelloWorld.java",
       "description": "Hello World"
     },
     "SpringBootApp": {
-      "script-ref": "src/springBoot/demo1/SpringBootApp.java",
+      "script-ref": "src/springBoot/java/demo1/SpringBootApp.java",
       "description": "Spring Boot App"
     },
     "google-java-format": {
