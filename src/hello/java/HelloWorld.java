@@ -1,8 +1,8 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 17
-//DEPS org.slf4j:slf4j-simple:1.7.32
-//DEPS org.projectlombok:lombok:1.18.22
-//DEPS io.github.cdimascio:dotenv-java:2.2.3
+//DEPS org.slf4j:slf4j-simple:2.0.0
+//DEPS org.projectlombok:lombok:1.18.24
+//DEPS io.github.cdimascio:dotenv-java:2.2.4
 
 import io.github.cdimascio.dotenv.Dotenv;
 import lombok.Data;

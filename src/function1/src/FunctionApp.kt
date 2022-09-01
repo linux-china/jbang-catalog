@@ -1,9 +1,9 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//KOTLIN 1.6.10
-//DEPS org.springframework.boot:spring-boot-dependencies:2.6.2@pom
-//DEPS org.springframework.cloud:spring-cloud-starter-function-webflux:3.2.1
-//DEPS org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10
-//DEPS org.jetbrains.kotlin:kotlin-reflect:1.6.10
+//KOTLIN 1.7.10
+//DEPS org.springframework.boot:spring-boot-dependencies:2.7.3@pom
+//DEPS org.springframework.cloud:spring-cloud-starter-function-webflux:3.2.6
+//DEPS org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10
+//DEPS org.jetbrains.kotlin:kotlin-reflect:1.7.10
 
 package demo
 

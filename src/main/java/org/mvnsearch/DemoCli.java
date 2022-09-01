@@ -1,6 +1,10 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS info.picocli:picocli:4.5.2
-//DEPS info.picocli:picocli-codegen:4.5.2
+//DEPS org.slf4j:slf4j-simple:2.0.0
+//DEPS info.picocli:picocli-codegen:4.6.3
+//DEPS io.github.cdimascio:dotenv-java:2.2.4
+//DEPS info.picocli:picocli:4.6.3
+//DEPS org.projectlombok:lombok:1.18.24
+
 package org.mvnsearch;
 
 import picocli.CommandLine;
