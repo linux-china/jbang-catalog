@@ -10,14 +10,19 @@ repositories {
   mavenCentral()
 }
 
-sourceCompatibility = 17
-targetCompatibility = 17
+sourceCompatibility = 18
+targetCompatibility = 18
 
 sourceSets {
   hello {
     java {
       srcDirs = ["src/hello/java"]
     }
+  }
+  jrtserver {
+      java {
+        srcDirs = ["src/jrtServer/java"]
+      }
   }
   demo {
     groovy {
