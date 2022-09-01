@@ -48,4 +48,3 @@ Example as following:
 * Gradle Source Sets: https://www.baeldung.com/gradle-source-sets
 * Gradle Goodness: Add Support For "Scratch" Files To Java Project https://blog.jdriven.com/2021/03/gradle-goodness-add-support-for-scratch-files-to-java-project/
 * Gradle Build Language Reference: https://docs.gradle.org/current/dsl/index.html
-
