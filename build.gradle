@@ -3,7 +3,7 @@
 plugins {
   id 'java'
   id 'groovy'
-  id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+  id 'org.jetbrains.kotlin.jvm' version '1.7.10'
 }
 
 repositories {
@@ -43,14 +43,15 @@ sourceSets {
 
 
 dependencies {
-  function1Implementation platform('org.springframework.boot:spring-boot-dependencies:2.6.2')
-  function1Implementation 'org.springframework.cloud:spring-cloud-starter-function-webflux:3.2.1'
-  function1Implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10'
-  function1Implementation 'org.jetbrains.kotlin:kotlin-reflect:1.6.10'
-  demoImplementation 'org.codehaus.groovy:groovy:3.0.9'
-  springBootImplementation platform('org.springframework.boot:spring-boot-dependencies:2.6.2')
+  implementation 'info.picocli:picocli:4.6.3'
+  function1Implementation platform('org.springframework.boot:spring-boot-dependencies:2.7.3')
+  function1Implementation 'org.springframework.cloud:spring-cloud-starter-function-webflux:3.2.6'
+  function1Implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10'
+  function1Implementation 'org.jetbrains.kotlin:kotlin-reflect:1.7.10'
+  demoImplementation 'org.apache.groovy:groovy:4.0.4'
+  springBootImplementation platform('org.springframework.boot:spring-boot-dependencies:2.7.3')
   springBootImplementation 'org.springframework.boot:spring-boot-starter'
-  helloImplementation 'org.slf4j:slf4j-simple:1.7.32'
-  helloImplementation 'org.projectlombok:lombok:1.18.22'
-  helloImplementation 'io.github.cdimascio:dotenv-java:2.2.0'
+  helloImplementation 'org.slf4j:slf4j-simple:2.0.0'
+  helloImplementation 'org.projectlombok:lombok:1.18.24'
+  helloImplementation 'io.github.cdimascio:dotenv-java:2.2.4'
 }
