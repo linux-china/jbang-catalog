@@ -1,5 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS org.springframework.boot:spring-boot-dependencies:2.7.3@pom
+//JAVA 17
+//DEPS org.springframework.boot:spring-boot-dependencies:3.0.6@pom
 //DEPS org.springframework.boot:spring-boot-starter
 //FILES ../application.properties
 //JAVA_OPTIONS -Dnick=linux_china2 -Dserver.port=9000
