@@ -8,6 +8,14 @@
       "script-ref": "src/hello/java/HelloWorld.java",
       "description": "Hello World"
     },
+    "IJSharedIndexes": {
+      "script-ref": "src/ijSharedIndexes/SharedIndexBuilder.kt",
+      "description": "Generate project IJ Shared Indexes",
+      "arguments": [
+        "jbang-catalog",
+        "/Users/linux_china/github/linux_china/jbang-catalog"
+      ]
+    },
     "SpringBootApp": {
       "script-ref": "src/springBoot/java/demo1/SpringBootApp.java",
       "description": "Spring Boot App"
