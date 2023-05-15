@@ -8,6 +8,9 @@ plugins {
 
 repositories {
   mavenCentral()
+  maven {
+    url 'https://packages.jetbrains.team/maven/p/ij/intellij-shared-indexes'
+  }
 }
 
 sourceCompatibility = 20
@@ -44,6 +47,11 @@ sourceSets {
       srcDirs = ["src/springBoot/java"]
     }
   }
+  ijSharedIndexes {
+    kotlin {
+      srcDirs = ['src/ijSharedIndexes']
+    }
+  }
 }
 
 
@@ -59,4 +67,5 @@ dependencies {
   helloImplementation 'org.slf4j:slf4j-simple:2.0.7'
   helloImplementation 'org.projectlombok:lombok:1.18.26'
   helloImplementation 'io.github.cdimascio:dotenv-java:3.0.0'
+  ijSharedIndexesImplementation 'com.jetbrains.intellij.indexing.shared:ij-shared-indexes-tool-cli:0.9.0'
 }
