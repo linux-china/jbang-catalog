@@ -16,6 +16,24 @@
         "/Users/linux_china/github/linux_china/jbang-catalog"
       ]
     },
+    "ij-shared-indexes-cli": {
+      "repositories": [
+        "mavencentral,jetbrains=https://packages.jetbrains.team/maven/p/ij/intellij-shared-indexes"
+      ],
+      "script-ref": "com.jetbrains.intellij.indexing.shared:ij-shared-indexes-tool-cli:0.9.0",
+      "main": "com.intellij.indexing.shared.builder.MainKt",
+      "arguments": [
+        "indexes",
+        "--project",
+        ".",
+        "--ij",
+        "/Users/linux_china/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-2/232.5150.116/IntelliJ IDEA 2023.2 EAP.app",
+        "--data-directory",
+        "/Users/linux_china/ij-shared-indexes-tool-data"
+      ],
+      "description": "Generates project shared indexes and starts local server on them.",
+      "java": "17"
+    },
     "SpringBootApp": {
       "script-ref": "src/springBoot/java/demo1/SpringBootApp.java",
       "description": "Spring Boot App"
