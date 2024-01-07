@@ -1,11 +1,11 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 
-//KOTLIN 1.8.21
-//JAVA 17
+//KOTLIN 1.9.21
+//JAVA 21
 //REPOS mavencentral,jetbrains=https://packages.jetbrains.team/maven/p/ij/intellij-shared-indexes
 //DEPS org.jetbrains.kotlin:kotlin-bom:1.8.21@pom
-//DEPS com.jetbrains.intellij.indexing.shared:ij-shared-indexes-tool:0.9.0
-//DEPS org.slf4j:slf4j-simple:2.0.7
+//DEPS com.jetbrains.intellij.indexing.shared:ij-shared-indexes-tool:0.9.9
+//DEPS org.slf4j:slf4j-simple:2.0.9
 
 import com.intellij.indexing.shared.builder.IntelliJ
 import com.intellij.indexing.shared.builder.IntelliJSharedIndexes

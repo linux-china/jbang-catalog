@@ -1,9 +1,9 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS org.slf4j:slf4j-simple:2.0.7
-//DEPS info.picocli:picocli-codegen:4.7.3
+//DEPS org.slf4j:slf4j-simple:2.0.9
+//DEPS info.picocli:picocli-codegen:4.7.5
 //DEPS io.github.cdimascio:dotenv-java:3.0.0
-//DEPS info.picocli:picocli:4.7.3
-//DEPS org.projectlombok:lombok:1.18.26
+//DEPS info.picocli:picocli:4.7.5
+//DEPS org.projectlombok:lombok:1.18.30
 
 package org.mvnsearch;
 

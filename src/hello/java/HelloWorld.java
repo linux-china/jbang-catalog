@@ -1,12 +1,12 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 17
-//DEPS org.slf4j:slf4j-simple:2.0.0
-//DEPS org.projectlombok:lombok:1.18.24
-//DEPS io.github.cdimascio:dotenv-java:2.2.4
+//DEPS org.slf4j:slf4j-simple:2.0.9
+//DEPS org.projectlombok:lombok:1.18.30
+//DEPS io.github.cdimascio:dotenv-java:3.0.0
 
 import io.github.cdimascio.dotenv.Dotenv;
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;  
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class HelloWorld {
