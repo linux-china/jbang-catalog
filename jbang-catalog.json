@@ -1,5 +1,13 @@
 {
   "aliases": {
+    "intro": {
+      "script-ref": "src/me/Intro.java",
+      "description": "Introduction for linux_china"
+    },
+    "resume": {
+      "script-ref": "src/me/Resume.java",
+      "description": "Resume for linux_china"
+    },
     "DemoCli": {
       "script-ref": "src/main/java/org/mvnsearch/DemoCli.java",
       "description": "Demo CLI"
